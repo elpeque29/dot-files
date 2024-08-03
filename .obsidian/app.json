@@ -1,0 +1,15 @@
+{
+  "showInlineTitle": true,
+  "alwaysUpdateLinks": true,
+  "spellcheckLanguages": null,
+  "attachmentFolderPath": "Attachments",
+  "newFileLocation": "current",
+  "legacyEditor": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 70
+  }
+}
