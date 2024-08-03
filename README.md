@@ -9,3 +9,5 @@ In this repo you will find files for
 - i3 status
 - Obsidian
 - Neovim
+
+![](https://raw.githubusercontent.com/elpeque29/dot-files/main/screenshot.png)
