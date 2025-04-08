@@ -12,6 +12,6 @@ In this repo you will find files for:
 
 And things that wont interest you ... probably. This is for my personal use only, but feel free to take whatever you find useful.
 
-![](https://raw.githubusercontent.com/elpeque29/dot-files/main/screenshot.png)
+![](https://raw.githubusercontent.com/elpeque29/dot-files/refs/heads/main/Pictures/Wallpaper/screenshot.png)
 
 I do use hyprland from time to time, you can check out this repo is the config that I'm currently using: [HyDE](https://github.com/HyDE-Project/HyDE)
