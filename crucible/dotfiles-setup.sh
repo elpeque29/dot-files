@@ -14,14 +14,16 @@ if [ "$CURRENT_DIR" = "/tmp" ]; then
 
   echo "Copying files..."
 
-  cp -r $REPO_NAME/.config /home/$USER/
-  cp -r $REPO_NAME/.themes /home/$USER/
-  cp -r $REPO_NAME/Pictures/ /home/$USER/Pictures/
-  cp $REPO_NAME/.zshrc /home/$USER/
-  cp $REPO_NAME/.ideavimrc /home/$USER/
+  cp -r $REPO_NAME/.config ~/
+  cp -r $REPO_NAME/.themes ~/
+  cp -r $REPO_NAME/Pictures/ ~/Pictures/
+  cp $REPO_NAME/.zshrc ~/
+  cp $REPO_NAME/.ideavimrc ~/
 
   if [ "$USER" = "peque" ]; then
-    mv /home/$USER/.config/.gitconfig /home/$USER/
+    mv ~/.config/.gitconfig ~/
+  else
+    rm -rf ~/.config/.gitconfig
   fi
 
   echo "Deleting temporary files"
